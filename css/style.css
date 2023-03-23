@@ -1,0 +1,97 @@
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 122px;
+}
+
+.logo{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.nav-con ul{
+    list-style: none;
+}
+
+.nav-con{
+    float: left;
+    width: 540px;
+    margin-left: 300px;
+}
+
+.nav-con li{
+    float: left;
+    margin: 2%;
+    color: black;
+    text-align: center;
+    
+}
+
+.search-btn{
+    width: 225px;
+    height: 50px;
+    float: right;
+    border-radius: 5px;
+    color: black;
+    background-color: darkgray;
+    text-align: center;
+    border: 2px solid black
+}
+
+.row{
+    width: 100%;
+}
+
+.description{
+    margin-left: 122px;
+}
+
+.box{
+    width: 550px;
+    height: 200px;
+    background-color: grey;
+    margin-left: 122px;
+    margin-top: 137px;
+}
+
+form{
+    width: 500px;
+    height: 500px;
+    background-color: #bdbcbc;
+    color: white;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 40%;
+}
+
+.input-el{
+    width: 450px;
+    height: 35px;
+    margin-top: 25px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+.input{
+    width: 225px;
+    height: 35px;
+    padding-right: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.footer{
+    background-color: white;
+    margin-top: 50px;
+}
+.footer p{
+    padding-left: 122px;
+}

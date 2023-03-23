@@ -1,0 +1,136 @@
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(171, 168, 168);
+}
+
+.logo{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.nav-con ul{
+    list-style: none;
+}
+
+.nav-con{
+    float: left;
+    width: 540px;
+    margin-left: 300px;
+}
+
+.nav-con li{
+    float: left;
+    margin: 2%;
+    color: black;
+    text-align: center;
+    
+}
+
+.search-btn{
+    width: 225px;
+    height: 50px;
+    float: right;
+    border-radius: 5px;
+    color: black;
+    background-color: darkgray;
+    text-align: center;
+    border: 2px solid black
+   
+
+}
+
+.header{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(171, 168, 168);
+}
+.content{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 70px;
+}
+
+.song-btn ul{
+    list-style: none;
+}
+.song-btn li{
+    width: 225px;
+    height: 50px;
+    background-color: lightgray;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 1%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.box{
+    width: 450px;
+    height: 300px;
+    background-color: rgb(100, 98, 98);
+    margin-left: 300px;
+}
+
+.big-box{
+    width: 550px;
+    height: 450px;
+    background-color: lightgray;
+    margin-bottom: 50px;
+    padding-left: 80px;
+}
+
+.big-box h4{
+    padding-top: 30px;
+}
+
+.row{
+    width: 100%;
+}
+
+.Recent{
+    margin-left: 40px;
+}
+.RR-box{
+    width: 277px;
+    height: 277px;
+    background-color: rgb(189, 187, 187);
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+
+}
+
+.Popular{
+    margin-left: 40px;
+}
+
+.PA-box{
+    width: 277px;
+    height: 277px;
+    background-color: rgb(189, 187, 187);
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.popular-box{
+    width: 277px;
+    height: 277px;
+    background-color: rgb(189, 187, 187);
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.footer{
+    background-color: white;
+}
+.footer p{
+    padding-left: 122px;
+}
