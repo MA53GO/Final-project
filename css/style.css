@@ -18,7 +18,9 @@ nav{
     float: left;
     width: 540px;
     margin-left: 300px;
+    margin-top: -40px;
 }
+
 
 .nav-con li{
     float: left;
@@ -47,6 +49,16 @@ nav{
     margin-left: 122px;
 }
 
+.description h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.description h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
 .box{
     width: 550px;
     height: 200px;
@@ -54,6 +66,7 @@ nav{
     margin-left: 122px;
     margin-top: 137px;
 }
+
 
 form{
     width: 500px;
@@ -86,6 +99,17 @@ form{
     border-radius: 20px;
     margin-top: 25px;
     text-align: center;
+}
+
+.input-l{
+    width: 450px;
+    height: 50px;
+    margin-top: 25px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(70, 70, 70);
+    color: white;
 }
 
 .footer{
