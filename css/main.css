@@ -4,6 +4,7 @@ nav{
     background-color: rgb(171, 168, 168);
 }
 
+
 .logo{
     padding-top: 20px;
     padding-left: 20px;
@@ -27,6 +28,7 @@ nav{
     text-align: center;
 }
 
+
 .search-btn{
     width: 225px;
     height: 50px;
@@ -40,12 +42,13 @@ nav{
     padding-right: 15px;
 }
 
-
-
 .header{
     width: 100%;
     height: 650px;
     background-color: rgb(171, 168, 168);
+    background-image: url(../assets/logic_no_pressure_home_cover_image.png);
+    background-size: cover;
+    background-position: center;
 }
 .content{
     padding-top: 100px;
@@ -62,28 +65,77 @@ nav{
     height: 50px;
     background-color: lightgray;
     color: black;
-    border: 2px solid black;
+    border: 2px solid rgb(2, 246, 230);
     border-radius: 25px;
     margin: 1%;
     text-align: center;
     padding-top: 10px;
     float: left;
 }
+.round-image{ 
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 25px !important;
+    background-image: url(../assets/heart_icon.svg);
+    background-size: cover;
+    background-position: center;
 
+}
 
+.col-6{
+    
+}
 .box{
     width: 450px;
     height: 300px;
     background-color: rgb(100, 98, 98);
     margin-left: 300px;
+    margin-top: 150px;
+    background-image: url(../assets/restoration_album_cover.png);
+    background-size: cover;
+    background-position: center;
+
 }
 
 .big-box{
     width: 550px;
-    height: 450px;
+    height: 400px;
     background-color: lightgray;
     margin-bottom: 50px;
     padding-left: 80px;
+    margin-top: 150px;
+}
+
+ul{
+    list-style: none;
+}
+
+.arrow-icons {
+    margin-left: 280px;
+}
+.round-frame{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 25px !important;
+    background-image: url(../assets/left_arrow_icon.svg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin: 1%;
+    margin-top: 100px;
+
+}
+
+.round-icon{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 25px !important;
+    background-image: url(../assets/right_arrow_icon.svg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin: 1%;
+    margin-top: 100px;
 }
 
 .big-box h4{
@@ -94,9 +146,18 @@ nav{
     width: 100%;
 }
 
+.col-3{
+    background-color: black;
+}
+
 .Recent{
+    color: white;
+    background-color: black;
+}
+.Recent h5{
     margin-left: 40px;
 }
+
 .RR-box{
     width: 277px;
     height: 277px;
@@ -105,10 +166,56 @@ nav{
     margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 80px;
+    background-image: url(../assets/man_on_the_moon_album_cover.png);
+    background-size: cover;
+    background-position: center;
+}
 
+.Recent-box{
+    width: 277px;
+    height: 277px;
+    background-color: rgb(189, 187, 187);
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+    background-image: url(../assets/blame_it_on_baby_album_cover.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.RecentR-box{
+    width: 277px;
+    height: 277px;
+    background-color: rgb(189, 187, 187);
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+    background-image: url(../assets/happy_thoughts_album_cover.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.Release-box{
+    width: 277px;
+    height: 277px;
+    background-color: rgb(189, 187, 187);
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+    background-image: url(../assets/music_to_be_murdered_by_album_cover.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .Popular{
+    color: white;
+    background-color: black;
+}
+
+.Popular h5{
     margin-left: 40px;
 }
 
@@ -120,6 +227,48 @@ nav{
     margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 30px;
+    background-image: url(../assets/low_end_theory_album_cover.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.Popular-box{
+    width: 277px;
+    height: 277px;
+    background-color: rgb(189, 187, 187);
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    background-image: url(../assets/wu_tang_album_cover.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.PopularA-box{
+    width: 277px;
+    height: 277px;
+    background-color: rgb(189, 187, 187);
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    background-image: url(../assets/to_pimp_a_butterfly_album_cover.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.Albums-box{
+    width: 277px;
+    height: 277px;
+    background-color: rgb(189, 187, 187);
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    background-image: url(../assets/revenge_album_cover.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .popular-box{
@@ -130,10 +279,52 @@ nav{
     margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 60px;
+    background-image: url(../assets/kod_album_cover.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.pp-box{
+    width: 277px;
+    height: 277px;
+    background-color: rgb(189, 187, 187);
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(../assets/no_pressure_album_cover.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.pop-box{
+    width: 277px;
+    height: 277px;
+    background-color: rgb(189, 187, 187);
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(../assets/circles_album_cover.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.pb-box{
+    width: 277px;
+    height: 277px;
+    background-color: rgb(189, 187, 187);
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(../assets/kanye_album_cover.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .footer{
-    background-color: white;
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: black;
 }
 .footer p{
     padding-left: 122px;
