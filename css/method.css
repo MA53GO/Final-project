@@ -1,13 +1,18 @@
 nav{
     width: 100%;
     height: 100px;
-    background-color: white;
+    background-color: black;
     margin-bottom: 122px;
+}
+
+body{
+    background-color: black;
 }
 
 .logo{
     padding-top: 20px;
     padding-left: 20px;
+    color: white;
 }
 
 .nav-con ul{
@@ -25,7 +30,7 @@ nav{
 .nav-con li{
     float: left;
     margin: 2%;
-    color: black;
+    color: white;
     text-align: center;
     
 }
@@ -50,41 +55,297 @@ nav{
 }
 
 .box{
-    width: 470px;
-    height: 470px;
+    width: 500px;
+    height: 500px;
     background-color: lightgray;
     color: white;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-top: 50px;
     text-align: center;
     padding-top: 110px;
+    background-image: url(../assets/my_favourite_mix_album_cover.png);
+    background-position: center;
+    background-size: cover;
 }
 
-.playlist-box ul{
+.playlist-headings ul{
     list-style: none;
 }
 
-.playlist-box{
+.playlist-headings{
     float: left;
-    width: 540px;
-    margin-left: 300px;
-    border: 2px solid black;
+    width: 100%;
+    color: white;
     margin-left: 100px;
     margin-top: 80px;
+    padding-left: 50px;
+    margin: 2%;
 }
 
-.playlist-box li{
+.playlist-headings li{
     float: left;
     margin: 2%;
-    color: black;
+    color: white;
+    text-align: center;
+}
+
+.song-titles ul{
+    list-style: none;
+}
+
+.song-titles{
+    float: left;
+    width: 100%;
+    color: white;
+    margin-left: 100px;
+    margin-top: 80px;
+    padding-left: 50px;
+    margin: 2%;
+}
+
+.song-titles li{
+    float: left;
+    margin: 2%;
+    color: white;
+    text-align: center;
+}
+
+.title-one ul{
+    list-style: none;
+}
+
+.title-one{
+    float: left;
+    width: 100%;
+    color: white;
+    margin-left: 100px;
+    margin-top: 80px;
+    padding-left: 50px;
+    margin: 2%;
+}
+
+.title-one li{
+    float: left;
+    margin: 2%;
+    color: white;
+    text-align: center;
+}
+
+.line{
+    width: 500px;
+    height: 1px;
+    background-color: white;
+    margin-top: 230px;
+    margin-left: 100px;
+}
+
+.title-two ul{
+    list-style: none;
+}
+
+.title-two{
+    float: left;
+    width: 100%;
+    color: white;
+    margin-left: 100px;
+    margin-top: 80px;
+    padding-left: 50px;
+    margin: 2%;
+}
+
+.title-two li{
+    float: left;
+    margin: 2%;
+    color: white;
+    text-align: center;
+}
+
+.line-two{
+    width: 500px;
+    height: 1px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.title-three ul{
+    list-style: none;
+}
+
+.title-three{
+    float: left;
+    width: 100%;
+    color: white;
+    margin-left: 100px;
+    margin-top: 80px;
+    padding-left: 50px;
+    margin: 2%;
+}
+
+.title-three li{
+    float: left;
+    margin: 2%;
+    color: white;
+    text-align: center;
+}
+
+.line-three{
+    width: 500px;
+    height: 1px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.title-four ul{
+    list-style: none;
+}
+
+.title-four{
+    float: left;
+    width: 100%;
+    color: white;
+    margin-left: 100px;
+    margin-top: 70px;
+    padding-left: 50px;
+    margin: 2%;
+}
+
+.title-four li{
+    float: left;
+    margin: 2%;
+    color: white;
+    text-align: center;
+}
+
+.line-four{
+    width: 500px;
+    height: 1px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.title-five ul{
+    list-style: none;
+}
+
+.title-five{
+    float: left;
+    width: 100%;
+    color: white;
+    margin-left: 100px;
+    margin-top: 70px;
+    padding-left: 50px;
+    margin: 2%;
+}
+
+.title-five li{
+    float: left;
+    margin: 2%;
+    color: white;
+    text-align: center;
+}
+
+.line-five{
+    width: 500px;
+    height: 1px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.title-six ul{
+    list-style: none;
+}
+
+.title-six{
+    float: left;
+    width: 100%;
+    color: white;
+    margin-left: 100px;
+    margin-top: 70px;
+    padding-left: 50px;
+    margin: 2%;
+}
+
+.title-six li{
+    float: left;
+    margin: 2%;
+    color: white;
     text-align: center;
 }
 
 .play-bar{
+    width: 85%;
+    background-color: aqua;
     margin-top: 100px;
+    margin-left: 150px;
+}
+
+.Current-song{
+    width: 100%;
+   
+}
+.icon-box{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    margin-left: 180px;
+    margin-top: 20px;
+    
+    background-image: url(../assets/restoration_album_cover.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.arrow-icons ul{
+    list-style: none;
+}
+
+.arrow-icons {
+    margin-left: 580px;
 }
 
 
+.play-pause{
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+    float: left;
+    margin: 1%;
+    background-image: url(../assets/pause_icon.svg);
+    background-position: center;
+    background-size: cover;
+}
 
+.round-frame{
+    width: 50px ;
+    height: 50px ;
+    border-radius: 25px;
+    background-image: url(../assets/previous_icon.svg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin: 1%;
+    
 
+}
+
+.round-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-image: url(../assets/next_icon.svg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin: 1%;
+    
+}
+
+p{
+    color: white;
+    margin-left: 600px;
+}
