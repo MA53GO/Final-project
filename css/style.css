@@ -21,9 +21,9 @@ body{
 
 .nav-con{
     float: left;
-    width: 540px;
+    width: 1000px;
     margin-left: 300px;
-    margin-top: -40px;
+    margin-top: -60px;
 }
 
 
@@ -32,18 +32,21 @@ body{
     margin: 2%;
     color: rgb(255, 250, 250);
     text-align: center;
-    
 }
 
 .search-btn{
     width: 225px;
-    height: 50px;
+    height: 40px;
     float: right;
-    border-radius: 5px;
-    color: rgb(255, 251, 251);
-    background-color: darkgray;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
     text-align: center;
-    
+    border: 2px solid rgb(2, 246, 230);
+    padding-right: 15px;
+    padding-top: 5px;
+    margin-top: -50px;
+    margin-right: 50px;
 }
 
 .row{
