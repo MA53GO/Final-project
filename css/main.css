@@ -1,12 +1,13 @@
 nav{
     width: 100%;
-    height: 100px;
+    height: 110px;
     background-color: rgb(171, 168, 168);
 }
 
 .logo{
     padding-top: 20px;
     padding-left: 20px;
+    padding-top: 50px;
     color: white;
 }
 
@@ -40,6 +41,7 @@ nav{
     border: 2px solid rgb(2, 246, 230);
     padding-right: 15px;
     padding-top: 5px;
+    margin-left: 105px;
 }
 
 .search-btn:hover{
@@ -56,16 +58,11 @@ nav{
     float: right;
 }
 
-.overlay{
-    width: 100%;
-    height: 650px;
-    background-color: rgba(0,0,0,0.6);
-    
-}
+
 
 .header{
     width: 100%;
-    height: 650px;
+    height: 750px;
     background-color: white;
     background-image: url(../assets/logic_no_pressure_home_cover_image.png);
     background-size: cover;
@@ -94,6 +91,11 @@ nav{
     padding-top: 10px;
     float: left;
 }
+
+.PLAY{
+    background-color: rgb(2, 246, 230);
+    color: black !important;
+}
 .round-image{ 
     width: 50px !important;
     height: 50px !important;
@@ -101,6 +103,16 @@ nav{
     background-image: url(../assets/heart_icon.svg);
     background-size: cover;
     background-position: center;
+}
+
+.container-fluid{
+    width: 100% !important; 
+    
+}
+.background{
+    width: 100%;
+    background-color: black;
+    margin-top: 320px;
 
 }
 
@@ -109,21 +121,23 @@ nav{
     width: 450px;
     height: 300px;
     background-color: black;
-    margin-left: 300px;
-    margin-top: 250px;
+    margin-left: 200px;
+    margin-top: -50px;
     background-size: cover;
     background-position: center;
 }
 
 .big-box{
-    width: 550px;
+    width: 600px;
     height: 400px;
-    background-color: rgb(53, 51, 51);
+    background-color: rgb(25, 37, 48);
     color: white;
-    margin-bottom: 50px;
-    padding-left: 80px;
-    margin-top: 250px;
-    opacity: 80%;
+    margin-left: 760px;
+    margin-top: -300px;
+    padding-left: 70px;
+    padding-right: 50px;
+    opacity: 85%;
+    margin-bottom: 100px;
 }
 
 ul{
@@ -339,6 +353,57 @@ ul{
     background-size: cover;
     background-position: center;
 }
+.socials{
+    margin-left: 83%;
+}
+
+.round-youtube{
+    height: 50px;
+    width: 50px;
+    margin-right: ;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+    background-image: url(../assets/youtube_icon.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.round-fb{
+    height: 50px;
+    width: 50px;
+    margin-right: ;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+    background-image: url(../assets/facebook_icon.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.round-twitter{
+    height: 50px;
+    width: 50px;
+    margin-right: ;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+    background-image: url(../assets/twitter_icon.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.round-instagram{
+    height: 50px;
+    width: 50px;
+    margin-right: ;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+    background-image: url(../assets/instagram_icon.svg);
+    background-size: cover;
+    background-position: center;
+}
 
 .footer{
     width: 100%;
@@ -347,7 +412,9 @@ ul{
     background-color: black;
 }
 .footer p{
+    width: auto;
     padding-left: 122px;
+    float: left;
 }
 
 

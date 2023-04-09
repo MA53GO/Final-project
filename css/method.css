@@ -289,15 +289,18 @@ body{
    
 }
 .icon-box{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background-color: white;
     margin-left: 180px;
     margin-top: 20px;
-    
     background-image: url(../assets/restoration_album_cover.png);
     background-position: center;
     background-size: cover;
+}
+.song-playing{
+    margin-top: -110px;
+    margin-left: 50px;
 }
 
 .arrow-icons ul{
@@ -329,8 +332,7 @@ body{
     background-position: center;
     float: left;
     margin: 1%;
-    
-
+    margin-top: 25px !important;
 }
 
 .round-icon{
@@ -342,10 +344,12 @@ body{
     background-position: center;
     float: left;
     margin: 1%;
-    
+    margin-top: 25px !important;
 }
 
 p{
     color: white;
-    margin-left: 600px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 100px;
 }

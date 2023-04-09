@@ -147,7 +147,7 @@ form{
 .input{
     width: 180px;
     height: 50px;
-    padding-right: 30px;
+    padding-right: 10px;
     border: none;
     border-radius: 20px;
     margin-top: 30px;
@@ -164,8 +164,64 @@ form{
     padding-left: 30px;
     border: none;
     border-radius: 20px;
-   background-color: rgb(70, 70, 70);
+    background-color: rgb(70, 70, 70);
     color: white;
+}
+
+.socials{
+    margin-left: 1000px;
+}
+
+.round-youtube{
+    height: 50px;
+    width: 50px;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+    background-image: url(../assets/youtube_icon.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.round-fb{
+    height: 50px;
+    width: 50px;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+    background-image: url(../assets/facebook_icon.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.round-twitter{
+    height: 50px;
+    width: 50px;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+    background-image: url(../assets/twitter_icon.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.round-instagram{
+    height: 50px;
+    width: 50px;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+    background-image: url(../assets/instagram_icon.svg);
+    background-size: cover;
+    background-position: center;
 }
 
 .footer{
@@ -173,5 +229,7 @@ form{
     margin-top: 50px;
 }
 .footer p{
+    padding-top: 15px;
     padding-left: 122px;
+    float: left;
 }
